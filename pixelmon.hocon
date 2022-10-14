@@ -181,7 +181,7 @@ ExternalMoves {
 # General settings for the world.
 General {
     # Allow the anvil to replace finished items with starting item from player's inventory without manual placing.
-    allowAnvilAutoreloading=false
+    allowAnvilAutoreloading=true
     # Allow player to throw Poké Balls from hotbar. If false, Poké Balls can only be thrown in battles.
     allowCaptureOutsideBattle=true
     # Server-side, whether players can use Chisels.
@@ -671,9 +671,9 @@ Spawning {
     # Number of ticks until legendaries will despawn.
     legendaryDespawnTicks=6000
     # Chance that a Legendary spawn attempt will succeed (0-1).
-    legendarySpawnChance=0.30000001192092896
+    legendarySpawnChance=0.5
     # Average number of ticks before an attempt at Legendary spawning will be made (modified by spawn chance).
-    legendarySpawnTicks=25000
+    legendarySpawnTicks=24000
     # Which types of loot, such as "simple_dungeon", that Pixelmon should not modify.
     lootIgnoreList=[]
     # How long the effects of the Black/White Flute last for in seconds once used.
