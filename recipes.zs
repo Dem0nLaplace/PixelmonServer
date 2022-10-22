@@ -5,6 +5,9 @@ recipes.removeShaped(<waystones:warp_stone>, [[<ore:dye>, <minecraft:ender_pearl
 recipes.removeShaped(<waystones:waystone>, [[null, <minecraft:stonebrick>, null],[<minecraft:stonebrick>, <waystones:warp_stone>, <minecraft:stonebrick>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<waystones:waystone>, [<minecraft:stonebrick>,<minecraft:diamond>,<minecraft:stonebrick>,<minecraft:gold_ingot>,<minecraft:ender_pearl>,<minecraft:gold_ingot>,<minecraft:stonebrick>,<minecraft:diamond>,<minecraft:stonebrick>]);
+recipes.addShapeless(<pixelmon:red_shard>, [<minecraft:blaze_powder>,<minecraft:diamond>]);
+recipes.addShapeless(<pixelmon:blue_shard>, [<minecraft:diamond>,<minecraft:prismarine_shard>]);
 recipes.addShaped(<pixelmon:master_ball>, [[<minecraft:golden_apple:1>, <minecraft:golden_apple:1>, <minecraft:golden_apple:1>],[<minecraft:golden_apple:1>, <pixelmon:cherish_ball>, <minecraft:golden_apple:1>], [<minecraft:golden_apple:1>, <minecraft:golden_apple:1>, <minecraft:golden_apple:1>]]);
 recipes.addShaped(<pixelmon:focus_sash>, [[null, <minecraft:emerald>, null],[<minecraft:emerald>, <minecraft:golden_apple>, <minecraft:emerald>], [null, <minecraft:emerald>, null]]);
 recipes.addShapeless(<pixelmon:zygarde_core>, [<pixelmon:ground_gem>,<pixelmon:ground_gem>,<pixelmon:ground_gem>,<pixelmon:ground_gem>,<pixelmon:dragon_gem>,<pixelmon:dragon_gem>,<pixelmon:dragon_gem>,<pixelmon:dragon_gem>]);
@@ -36,8 +39,5 @@ recipes.addShaped(<pixelmon:venusaurite>, [[<pixelmon:grass_gem>, <pixelmon:gras
 recipes.addShaped(<pixelmon:charizardite_y>, [[<pixelmon:fire_gem>, <pixelmon:fire_gem>, <pixelmon:fire_gem>],[<pixelmon:fire_gem>, <pixelmon:sun_stone>, <pixelmon:fire_gem>], [<pixelmon:fire_gem>, <pixelmon:fire_gem>, <pixelmon:fire_gem>]]);
 recipes.addShaped(<pixelmon:charizardite_x>, [[<pixelmon:fire_gem>, <pixelmon:fire_gem>, <pixelmon:fire_gem>],[<pixelmon:fire_gem>, <pixelmon:fire_stone>, <pixelmon:fire_gem>], [<pixelmon:fire_gem>, <pixelmon:fire_gem>, <pixelmon:fire_gem>]]);
 recipes.addShaped(<pixelmon:blastoisinite>, [[<pixelmon:water_gem>, <pixelmon:water_gem>, <pixelmon:water_gem>],[<pixelmon:water_gem>, <pixelmon:water_stone>, <pixelmon:water_gem>], [<pixelmon:water_gem>, <pixelmon:water_gem>, <pixelmon:water_gem>]]);
-recipes.addShaped(<pixelmon:blue_orb>, [[<minecraft:prismarine_shard>, <minecraft:prismarine_shard>, <minecraft:prismarine_shard>],[<minecraft:prismarine_shard>, <minecraft:prismarine_shard>, <minecraft:prismarine_shard>], [<minecraft:prismarine_shard>, <minecraft:prismarine_shard>, <minecraft:prismarine_shard>]]);
-recipes.addShaped(<pixelmon:red_orb>, [[<minecraft:blaze_rod>, <minecraft:blaze_rod>, <minecraft:blaze_rod>],[<minecraft:blaze_rod>, <minecraft:diamond>, <minecraft:blaze_rod>], [<minecraft:blaze_rod>, <minecraft:blaze_rod>, <minecraft:blaze_rod>]]);
-recipes.addShaped(<waystones:waystone>, [[<minecraft:stonebrick>, <minecraft:emerald_block>, <minecraft:stonebrick>],[<minecraft:ender_eye>, <waystones:warp_stone>, <minecraft:ender_eye>], [<minecraft:obsidian>, <minecraft:diamond_block>, <minecraft:obsidian>]]);
 recipes.addShaped(<waystones:warp_stone>, [[<minecraft:ender_eye>, <minecraft:diamond>, <minecraft:ender_eye>],[<minecraft:glowstone_dust>, <minecraft:emerald>, <minecraft:glowstone_dust>], [<minecraft:ender_eye>, <minecraft:diamond>, <minecraft:ender_eye>]]);
 //File End

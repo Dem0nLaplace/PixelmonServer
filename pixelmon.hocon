@@ -611,7 +611,7 @@ Spawning {
         75
     ]
     # The rate of boss Pokémon in the wild (1/x) not including mega bosses.
-    bossRate=256
+    bossRate=128
     # Chance that a mega boss spawn attempt will succeed (0-1)
     bossSpawnChance=0.30000001192092896
     # Average number of ticks before spawning a boss Pokémon
